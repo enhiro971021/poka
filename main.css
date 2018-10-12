@@ -1,0 +1,130 @@
+.index-card{
+  float:left;
+  margin:  30px 5px;
+  height: 100px;
+  width: 65px;
+  color: #fff;
+}
+
+.index-card img{
+  width: 100%;
+}
+
+.cf::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.wrap{
+  width: 375px;
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.btn-top{
+  width: calc(100% - 10px);
+  margin: 0 auto;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  background: #333333;
+  color: #fff;
+}
+
+#B{
+  height: 75vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background: #333;
+  display: none;
+}
+
+#C{
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: none;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+.yaku{
+  height: 42vh;
+  bottom: 48px;
+  position: absolute;
+  background: #585858;
+  width: 100vw;
+  overflow-y: scroll;
+
+}
+
+
+.yaku_line{
+  padding: 8px;
+  color: #fff;
+}
+.yaku_label{
+  float: left;
+}
+
+
+.yaku_point{
+  float: right;
+}
+
+
+
+.select-box{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.card-btn{
+  width: calc(25vw - 4px);
+  height:calc(25vw - 4px);
+  line-height: calc(25vw - 4px);
+  text-align: center;
+  background: #fff;
+  float: left;
+  border: 2px solid #000;
+}
+
+
+.card-btn_mark{
+  width: calc(25vw - 4px);
+  height:calc(25vw - 4px);
+  line-height: calc(25vw - 4px);
+  text-align: center;
+  background: #fff;
+  float: left;
+  border: 2px solid #000;
+}
+
+.viwe_now{
+  width: calc(100% - 64px);
+  font-size: 25px;
+  padding: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+#e-back{
+  height:calc(10vw);
+  line-height: calc(10vw - 4px);
+  text-align: center;
+  background: #fff;
+  border: 2px solid #000;
+}
+
+#b-cancel{
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 16px;
+  bottom: 0;
+  position: absolute;
+  width: calc(100vw - 32px);
+}
